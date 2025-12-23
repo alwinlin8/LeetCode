@@ -1,0 +1,19 @@
+class Solution(object):
+    def buildArray(self, target, n):
+        s = []
+        out = []
+        for i in range(1,n+1):
+            out.append("Push")
+            s.append(i)
+            if i not in target:
+                out.append("Pop")
+                s.pop()
+            elif s == target:
+                return out
+        return out
+        """
+        :type target: List[int]
+        :type n: int
+        :rtype: List[str]
+        """
+        
