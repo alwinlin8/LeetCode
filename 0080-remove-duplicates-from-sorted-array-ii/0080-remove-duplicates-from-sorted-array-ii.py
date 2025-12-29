@@ -1,15 +1,16 @@
 class Solution(object):
     def removeDuplicates(self, nums):
-        count = list(set(nums))
-        new_count = sorted(count + count)
-        i = 0
-        while i < len(nums):
-            if nums[i] in new_count:
-                new_count.remove(nums[i])
-                i += 1
-            else:
-                nums.pop(i)
-        return len(nums)
+        left, right = 0, 0
+        while right < len(nums):
+            count = 1
+            while right + 1 < len(nums) and nums[right] == nums[right+1]:
+                count += 1
+                right += 1
+            for i in range(min(2, count)):
+                nums[left] = nums[right]
+                left += 1
+            right += 1
+        return left
         """
         :type nums: List[int]
         :rtype: int
