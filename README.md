@@ -5,6 +5,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/alwinlin8/LeetCode/tree/main/1582-special-positions-in-a-binary-matrix/) | Easy |
+| [3653-xor-after-range-multiplication-queries-i](https://github.com/alwinlin8/LeetCode/tree/main/3653-xor-after-range-multiplication-queries-i/) | Medium |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -22,4 +23,9 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0657-robot-return-to-origin](https://github.com/alwinlin8/LeetCode/tree/main/0657-robot-return-to-origin/) | Easy |
+| [3653-xor-after-range-multiplication-queries-i](https://github.com/alwinlin8/LeetCode/tree/main/3653-xor-after-range-multiplication-queries-i/) | Medium |
+## Divide and Conquer
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3653-xor-after-range-multiplication-queries-i](https://github.com/alwinlin8/LeetCode/tree/main/3653-xor-after-range-multiplication-queries-i/) | Medium |
 <!---LeetCode Topics End-->
